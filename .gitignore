@@ -1,0 +1,11 @@
+**/venv
+**/.venv
+*.iml
+**/build
+
+**/.gradle
+**/.idea
+**/.DS_Store
+**/.venv
+**/__pycache__
+**/*.pyc
