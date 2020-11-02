@@ -83,7 +83,7 @@ void simpleMove() {
 }
 
 const int INTERVAL = 10;
-void moveFLRR() {
+void walk() {
   for (int i = 0; i < STEPS; i++) {
     for (int k = 0; k < INTERVAL; k++) {
       for (int si = 0; si < 8; si++) {
@@ -112,6 +112,6 @@ void calibrate() {
 void loop() {
   //calibrate();
   //simpleMove();
-  moveFLRR();
+  walk();
   return;
 }
