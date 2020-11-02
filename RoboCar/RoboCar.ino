@@ -1,10 +1,5 @@
 /*
- Controlling a servo position using a potentiometer (variable resistor)
- by Michal Rinott <http://people.interaction-ivrea.it/m.rinott>
-
- modified on 8 Nov 2013
- by Scott Fitzgerald
- http://www.arduino.cc/en/Tutorial/Knob
+ * Use an ultrasound distance detector to avoid obstacle.
 */
 
 #include <Servo.h>
