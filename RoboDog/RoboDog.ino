@@ -20,9 +20,9 @@ int servoConfigs[8][4] = {
   {10, 150, -1, 45}, // FRONT_RIGHT_KNEE
   
   {9, 115, -1,  45}, // REAR_LEFT_HIP
-  {8, 20, 1,    55},   // REAR_LEFT_KNEE
+  {8, 20, 1,    50},   // REAR_LEFT_KNEE
   {7, 35, 1,    45},   // REAR_RIGHT_HIP
-  {6, 150, -1,  55}, // REAR_RIGHT_KNEE
+  {6, 150, -1,  50}, // REAR_RIGHT_KNEE
 };
 
 const int STEPS = 10;
@@ -110,8 +110,8 @@ void calibrate() {
 }
 
 void loop() {
-  calibrate();
+  //calibrate();
   //simpleMove();
-  //moveFLRR();
+  moveFLRR();
   return;
 }
